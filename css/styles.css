@@ -1,0 +1,52 @@
+.imgcarrusel{
+    height: 91vh
+}
+
+.colornav{
+    background-color: #f8f8f8;
+}
+
+.cuerpo {
+    padding : 4px;
+    height : 91vh;
+    overflow : auto; 
+}
+
+.parallax{
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#seccion1 {
+    background-image: url('../img/matrix.gif');
+    height: 30vh;
+}
+
+#imgDanmo {
+    height: 30vh;
+    width: 30vh;
+}
+
+.imgHabilidad {
+    height: 15vh;
+    width: 15vh;
+
+}
+
+.letras {
+    font-size: 3vh;
+}
+
+.zoom{
+    transition: 0.5s ease;
+     -moz-transition: 0.5s ease; /* Firefox */
+     -webkit-transition: 0.5s ease; /* Chrome - Safari */
+     -o-transition: 0.5s ease; /* Opera */
+}
+.zoom:hover{
+    transform : scale(1.2);
+    -moz-transform : scale(1.2); /* Firefox */
+    -webkit-transform : scale(1.2); /* Chrome - Safari */
+    -o-transform : scale(1.2); /* Opera */
+    -ms-transform : scale(1.2); /* IE9 */
+}
