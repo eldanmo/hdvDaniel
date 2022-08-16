@@ -50,3 +50,7 @@
     -o-transform : scale(1.2); /* Opera */
     -ms-transform : scale(1.2); /* IE9 */
 }
+
+.bg-black {
+    background-color: black;
+}
